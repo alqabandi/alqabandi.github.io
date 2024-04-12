@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: cv_pdf
 permalink: /cv/
 title: cv
 nav: true
