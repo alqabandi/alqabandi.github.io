@@ -20,7 +20,7 @@ Hi! I am a computational sociologist who focuses on the interplay between politi
 
 Another facet of my research examines how online user experiences shape perceptions of political content. A project I recently completed looks at [how offering social media users more control over the content they consume shapes their attitudes about the content as well as the platforms themselves](https://osf.io/ubyac). 
 
-Outside of academia, I enjoy lifting weights, eating Szechuan food, and traveling. I've also just started dabbling in rowing. 
+Outside of academia, I enjoy lifting weights, eating Szechuan food, and traveling.  
 
 
 Interests:
