@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate Sociology | MS Candidate Statistical Science | Computational Social Scientist
+subtitle: Computational Social Scientist | PhD, Sociology | MS, Statistical Science  
 
 profile:
   align: right
