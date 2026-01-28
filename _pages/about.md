@@ -70,9 +70,34 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
 
 A lot of my work depends on building research infrastructure that lets us manipulate key features of online environments while measuring real behavior.
 
-- **Social Media Accelerator (SMA).** This is a controlled, Twitter-like experimental environment populated with dynamic LLM-based confederates ([overview paper](https://osf.io/preprints/socarxiv/ucfbk){: .external}). We use it to study disclosure, social influence, and user experience under tightly controlled conditions.
-- **Qualtrics-integrated LLM chat app** This is a tool that embeds an LLM-powered chat directly inside surveys, so participants can interact with synthetic partners without leaving Qualtrics ([GitHub repo](https://github.com/alqabandi/qualtrics-streamlit-chat-app){: .external}).
-- **Applied AI tools for real workflows.** I also build LLM-powered systems outside academia—including an LLM based chat app that helps doctors interact with, and gain basic statistical info from, messy ICU data in a conversational way; and a chat-based assistant to help local residents navigate complex government services and requirements.
+<small><em>Click a section below to expand and read more.</em></small>
+
+<details>
+  <summary><strong>Social Media Accelerator (SMA)</strong></summary>
+
+  <p>
+  This is a controlled, Twitter-like experimental environment populated with dynamic LLM-based confederates (<a href="https://osf.io/preprints/socarxiv/ucfbk" class="external">overview paper</a>). We use it to study disclosure, social influence, and user experience under tightly controlled conditions.
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>Qualtrics-integrated LLM chat app</strong></summary>
+
+  <p>
+  This is a tool that embeds an LLM-powered chat directly inside surveys, so participants can interact with synthetic partners without leaving Qualtrics (<a href="https://github.com/alqabandi/qualtrics-streamlit-chat-app" class="external">GitHub repo</a>).
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>Applied AI tools for real workflows</strong></summary>
+
+  <p>
+  I also build LLM-powered systems outside academia. These include things like an LLM based chat app that helps doctors interact with, and gain basic statistical info from, messy ICU data in a conversational way; and a chat-based assistant to help local residents navigate complex government services and requirements.
+  </p>
+
+</details>
 
 ## Interests
 
@@ -82,4 +107,4 @@ A lot of my work depends on building research infrastructure that lets us manipu
 - Public opinion, belief disclosure, and self-censorship
 - Platform design, moderation, and user experience
 - Social network analysis
-- And generally doing research that helps answer fun research questions!
+- And generally designing studies that help answer exciting research questions!
