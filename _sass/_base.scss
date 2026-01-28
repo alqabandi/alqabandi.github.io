@@ -63,8 +63,8 @@ a.btn {
 }
 
 // External link indicator
-a.external::after {
-  content: " ↗";
+a.external::before {
+  content: "↗ ";
   font-size: 0.85em;
   text-decoration: none;
 }
