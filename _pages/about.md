@@ -66,7 +66,7 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
 
 <div style="margin-top: 2.5rem;"></div>
 
-## Tools I build (and why)
+## Research tools
 
 A lot of my work depends on building research infrastructure that lets us manipulate key features of online environments while measuring real behavior.
 
@@ -74,7 +74,7 @@ A lot of my work depends on building research infrastructure that lets us manipu
 - **Qualtrics-integrated LLM chat app** This is a tool that embeds an LLM-powered chat directly inside surveys, so participants can interact with synthetic partners without leaving Qualtrics ([GitHub repo](https://github.com/alqabandi/qualtrics-streamlit-chat-app){: .external}).
 - **Applied AI tools for real workflows.** I also build LLM-powered systems outside academia—including an LLM based chat app that helps doctors interact with, and gain basic statistical info from, messy ICU data in a conversational way; and a chat-based assistant to help local residents navigate complex government services and requirements.
 
-**Interests**
+## Interests
 
 - Experiments, surveys, and computational social science
 - Causal inference and quantitative methods
