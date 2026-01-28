@@ -21,6 +21,7 @@ Hi! I’m a computational social scientist with a Ph.D. in Sociology and an M.S.
 A lot of my work sits at the intersection of **human–AI interaction**, **human and political behavior**, and **applied causal inference**. I love building innovative research tools that make it possible to test questions that are otherwise hard or impossible to study on real platforms, particularly questions about expression, trust, user experiences, and how people make sense of algorithmic systems.
 
 ## Research highlights
+<small><em>Click a section below to expand and read more.</em></small>
 
 <details>
   <summary><strong>Platform control, algorithms, and user experience</strong></summary>
@@ -62,13 +63,15 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
 
 </details>
 
+
 ## Tools I build (and why)
 
 A lot of my work depends on building research infrastructure that lets us manipulate key features of online environments while measuring real behavior.
 
-- **Social Media Accelerator (SMA):** a controlled, Twitter-like experimental environment populated with dynamic LLM-based confederates ([overview paper](https://osf.io/preprints/socarxiv/ucfbk)). We use it to study disclosure, social influence, and user experience under tightly controlled conditions.  
-- **Qualtrics-integrated LLM chat app:** a tool that embeds an LLM-powered chat directly inside surveys, so participants can interact with synthetic partners without leaving Qualtrics ([GitHub repo](https://github.com/alqabandi/qualtrics-streamlit-chat-app)).  
-- **Applied AI tools for real workflows:** I also build LLM-powered systems outside academia—including an LLM based chat app that helps doctors interact with, and gain basic statistical info from, messy ICU data in a conversational way; and a chat-based assistant to help local residents navigate complex government services and requirements.
+- **Social Media Accelerator (SMA).** This is a controlled, Twitter-like experimental environment populated with dynamic LLM-based confederates ([overview paper](https://osf.io/preprints/socarxiv/ucfbk)). We use it to study disclosure, social influence, and user experience under tightly controlled conditions.  
+- **Qualtrics-integrated LLM chat app** This is a tool that embeds an LLM-powered chat directly inside surveys, so participants can interact with synthetic partners without leaving Qualtrics ([GitHub repo](https://github.com/alqabandi/qualtrics-streamlit-chat-app)).  
+- **Applied AI tools for real workflows.** I also build LLM-powered systems outside academia—including an LLM based chat app that helps doctors interact with, and gain basic statistical info from, messy ICU data in a conversational way; and a chat-based assistant to help local residents navigate complex government services and requirements.
+
 
 **Interests**
 - Experiments, surveys, and computational social science  
