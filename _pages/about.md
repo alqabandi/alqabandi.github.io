@@ -32,7 +32,7 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
   </p>
 
   <p>
-  In a <a href="https://osf.io/preprints/socarxiv/ubyac">survey-experiment</a> (forthcoming at <em>New Media & Society</em>; recipient of Duke’s 2025 MS in Statistical Science Award), we offered participants the option to filter out toxic political content in a simulated social media feed—while holding the content constant across conditions. Participants who opted into filtering perceived posts as more hostile than those who had no filtering option, even though all participants saw the same content.
+  In a [survey-experiment](https://osf.io/preprints/socarxiv/ubyac) (forthcoming at <em>New Media & Society</em>; recipient of Duke’s 2025 MS in Statistical Science Award), we offered participants the option to filter out toxic political content in a simulated social media feed—while holding the content constant across conditions. Participants who opted into filtering perceived posts as more hostile than those who had no filtering option, even though all participants saw the same content.
   </p>
 
 </details>
@@ -45,11 +45,11 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
   </p>
 
   <ul>
-    <li>
-      In <a href="https://osf.io/preprints/socarxiv/qpmce">one behavioral study</a>, I found Democrats voiced unpopular opinions more readily to Republicans than to fellow Democrats, suggesting that self-censorship often reflects in-group dynamics, not just fear of the opposition.
+    <li> 
+      In [one behavioral study](https://osf.io/preprints/socarxiv/qpmce), I found Democrats voiced unpopular opinions more readily to Republicans than to fellow Democrats, suggesting that self-censorship often reflects in-group dynamics, not just fear of the opposition. 
     </li>
     <li>
-      In an “outnumbered” experiment using our custom platform, participants surrounded by opposing viewpoints felt less comfortable sharing opinions and evaluated both the platform and other users more negatively (<a href="https://osf.io/preprints/osf/tygec">paper here</a>).
+      In an “outnumbered” experiment using our custom platform, participants surrounded by opposing viewpoints felt less comfortable sharing opinions and evaluated both the platform and other users more negatively ([paper here](https://osf.io/preprints/osf/tygec)).
     </li>
   </ul>
 
@@ -59,7 +59,7 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
   <summary><strong>Gender and influence in political conversations</strong></summary>
 
   <p>
-  In a collaboration published in <a href="https://www.nature.com/articles/s41598-023-39359-0"><em>Nature Scientific Reports</em> (2023)</a>, we built a custom chat app and randomly assigned gender labels to discussion partners. Misrepresenting a man as a woman reduced his influence, while misrepresenting a woman as a man did not improve hers.
+  In a collaboration published in [<em>Nature Scientific Reports</em> (2023)](https://www.nature.com/articles/s41598-023-39359-0), we built a custom chat app and randomly assigned gender labels to discussion partners. Misrepresenting a man as a woman reduced his influence, while misrepresenting a woman as a man did not improve hers.
   </p>
 
 </details>
