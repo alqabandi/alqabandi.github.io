@@ -16,19 +16,65 @@ selected_papers: true
 social: false 
 ---
 
-Hi! I am a computational sociologist who focuses on the interplay between political polarization, public opinion, and online discourse. My work explores the the role of digital platforms in either bridging or deepening political divides. My specific interests lie in the dynamics that drive self-censorship and the expression of unspoken beliefs, [particularly when interacting with extreme co- and cross-partisans](https://osf.io/preprints/socarxiv/qpmce). Using a combination of surveys, experiments, and [simulated social media platforms populated with LLM-based bots](https://osf.io/preprints/socarxiv/ucfbk), I explore under what conditions people are more or less likely to disclose their "true" opinions. 
+Hi! I’m a computational social scientist with a Ph.D. in Sociology and an M.S. in Statistical Science from Duke University. I run large-scale experiments, surveys, and custom-built digital platforms to study how platform design, algorithms, and social dynamics shape online discourse and user experience. I’m especially interested in the gap between what platforms promise (control, safety, transparency) and how people actually interpret and respond to those features in practice.
 
-Another facet of my research examines how online user experiences shape perceptions of political content. A project I recently completed looks at [how offering social media users more control over the content they consume shapes their attitudes about the content as well as the platforms themselves](https://osf.io/ubyac). 
+A lot of my work sits at the intersection of **human–AI interaction**, **human and political behavior**, and **applied causal inference**. I love building innovative research tools that make it possible to test questions that are otherwise hard or impossible to study on real platforms, particularly questions about expression, trust, user experiences, and how people make sense of algorithmic systems.
 
-Outside of academia, I enjoy lifting weights, eating Szechuan food, and traveling.  
+## Research highlights
 
+<details>
+  <summary><strong>Platform control, algorithms, and user experience</strong></summary>
 
-Interests:
-- Quantitative methods
-- Causal inference
-- Social psychology
-- Communication
-- Spiral of silence
-- Public opinion
-- Political polarization
+  <p>
+  Social media platforms increasingly offer users tools to “manage” what they see (e.g., topic controls and customizable feeds). But we know surprisingly little about how these features affect perception and trust.
+  </p>
+
+  <p>
+  In a <a href="https://osf.io/preprints/socarxiv/ubyac">survey-experiment</a> (forthcoming at <em>New Media & Society</em>; recipient of Duke’s 2025 MS in Statistical Science Award), we offered participants the option to filter out toxic political content in a simulated social media feed—while holding the content constant across conditions. Participants who opted into filtering perceived posts as more hostile than those who had no filtering option, even though all participants saw the same content.
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>Self-censorship, disclosure, and “outnumbered” environments</strong></summary>
+
+  <p>
+  I study when people share what they really think—and when they keep quiet—especially under social pressure.
+  </p>
+
+  <ul>
+    <li>
+      In <a href="https://osf.io/preprints/socarxiv/qpmce">one behavioral study</a>, I found Democrats voiced unpopular opinions more readily to Republicans than to fellow Democrats, suggesting that self-censorship often reflects in-group dynamics, not just fear of the opposition.
+    </li>
+    <li>
+      In an “outnumbered” experiment using our custom platform, participants surrounded by opposing viewpoints felt less comfortable sharing opinions and evaluated both the platform and other users more negatively (<a href="https://osf.io/preprints/osf/tygec">paper here</a>).
+    </li>
+  </ul>
+
+</details>
+
+<details>
+  <summary><strong>Gender and influence in political conversations</strong></summary>
+
+  <p>
+  In a collaboration published in <a href="https://www.nature.com/articles/s41598-023-39359-0"><em>Nature Scientific Reports</em> (2023)</a>, we built a custom chat app and randomly assigned gender labels to discussion partners. Misrepresenting a man as a woman reduced his influence, while misrepresenting a woman as a man did not improve hers.
+  </p>
+
+</details>
+
+## Tools I build (and why)
+
+A lot of my work depends on building research infrastructure that lets us manipulate key features of online environments while measuring real behavior.
+
+- **Social Media Accelerator (SMA):** a controlled, Twitter-like experimental environment populated with dynamic LLM-based confederates ([overview paper](https://osf.io/preprints/socarxiv/ucfbk)). We use it to study disclosure, social influence, and user experience under tightly controlled conditions.  
+- **Qualtrics-integrated LLM chat app:** a tool that embeds an LLM-powered chat directly inside surveys, so participants can interact with synthetic partners without leaving Qualtrics ([GitHub repo](https://github.com/alqabandi/qualtrics-streamlit-chat-app)).  
+- **Applied AI tools for real workflows:** I also build LLM-powered systems outside academia—including an LLM based chat app that helps doctors interact with, and gain basic statistical info from, messy ICU data in a conversational way; and a chat-based assistant to help local residents navigate complex government services and requirements.
+
+**Interests**
+- Experiments, surveys, and computational social science  
+- Causal inference and quantitative methods  
+- Human–AI interaction  
+- Public opinion, belief disclosure, and self-censorship  
+- Platform design, moderation, and user experience  
 - Social network analysis
+- And generally doing research that helps answer fun research questions!
