@@ -6,7 +6,7 @@ subtitle: Computational Social Scientist | PhD, Sociology | MS, Statistical Scie
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_cropped.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>fatima.alqabandi[at]duke.edu</p>
