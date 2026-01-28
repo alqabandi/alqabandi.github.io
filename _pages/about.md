@@ -64,7 +64,7 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
 
 </details>
 
-<div style="margin-top: 2.5rem;"></div>
+<div style="margin-top: 2rem;"></div>
 
 ## Research tools
 
@@ -98,6 +98,8 @@ A lot of my work depends on building research infrastructure that lets us manipu
   </p>
 
 </details>
+
+<div style="margin-top: 2rem;"></div>
 
 ## Interests
 
