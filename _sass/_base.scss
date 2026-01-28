@@ -62,6 +62,13 @@ a.btn {
   }
 }
 
+// External link indicator
+a.external::after {
+  content: " ↗";
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {
