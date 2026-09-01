@@ -9,7 +9,7 @@ profile:
   image: prof_pic_cropped.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>fatima.alqabandi[at]duke.edu</p>
+    <p>fatima[at]alqabandi.co</p>
 
 news: false
 selected_papers: true
