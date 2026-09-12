@@ -13,11 +13,10 @@ nav_order: 6
 
 **Kuwait University · Fall 2026**
 
-This course examines how groups, institutions, and wider social forces shape everyday life—and how people shape society in return. Students learn to apply sociological theories and evidence to familiar experiences, connect individual choices to broader social patterns, and communicate sociological ideas to a public audience.
+This course examines how groups, institutions, and wider social forces shape everyday life, and how people shape society in return. Students learn to apply sociological theories, concepts, and perspectives to familiar experiences, connect individual choices to broader social patterns, and communicate sociological ideas to a public audience.
 
 [Course website](https://alqabandi.github.io/intro-to-soc-fa26/) ·
-[Syllabus](https://alqabandi.github.io/intro-to-soc-fa26/syllabus.html) ·
-[Course schedule](https://alqabandi.github.io/intro-to-soc-fa26/schedule.html)
+[Syllabus](https://alqabandi.github.io/intro-to-soc-fa26/syllabus.html)
 
 ### Social Research Methods
 
