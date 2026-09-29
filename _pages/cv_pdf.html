@@ -1,0 +1,122 @@
+---
+layout: page
+permalink: /cv/pdf/
+title: cv
+description: The full CV as a PDF.
+nav: false
+cv_pdf: alqabandi_cv.pdf
+---
+
+{% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+
+<div class="cv-pdf-toolbar">
+  <a class="cv-pdf-back" href="{{ '/cv/' | relative_url }}">&larr; Back to CV</a>
+  <a class="cv-download-button" href="{{ cv_pdf_url }}" download="{{ site.first_name }}_{{ site.last_name }}_CV.pdf">
+    <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+    Download PDF
+  </a>
+</div>
+
+<div id="cv-pdf-viewer" class="cv-pdf-viewer" data-src="{{ cv_pdf_url }}">
+  <p class="cv-pdf-status">Loading CV&hellip;</p>
+  <noscript>
+    <p class="cv-pdf-status">This viewer needs JavaScript. <a href="{{ cv_pdf_url }}">Open the PDF directly</a> instead.</p>
+  </noscript>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+  (function () {
+    var viewer = document.getElementById("cv-pdf-viewer");
+    var status = viewer.querySelector(".cv-pdf-status");
+    var src = viewer.getAttribute("data-src");
+
+    if (!window.pdfjsLib) {
+      status.innerHTML = 'The viewer could not load. <a href="' + src + '">Open the PDF directly</a> instead.';
+      return;
+    }
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+    var pdfDoc = null;
+    var lastWidth = 0;
+
+    function renderPage(pageNum, width) {
+      return pdfDoc.getPage(pageNum).then(function (page) {
+        var base = page.getViewport({ scale: 1 });
+        var viewport = page.getViewport({ scale: width / base.width });
+        var ratio = window.devicePixelRatio || 1;
+
+        var sheet = document.createElement("div");
+        sheet.className = "cv-pdf-page";
+        sheet.style.width = viewport.width + "px";
+        sheet.style.height = viewport.height + "px";
+
+        var canvas = document.createElement("canvas");
+        canvas.width = Math.floor(viewport.width * ratio);
+        canvas.height = Math.floor(viewport.height * ratio);
+        canvas.setAttribute("aria-label", "CV page " + pageNum);
+        sheet.appendChild(canvas);
+
+        var render = page.render({
+          canvasContext: canvas.getContext("2d"),
+          viewport: viewport,
+          transform: ratio !== 1 ? [ratio, 0, 0, ratio, 0, 0] : null,
+        }).promise;
+
+        // Keep the CV's hyperlinks clickable by overlaying real links.
+        var links = page.getAnnotations().then(function (annotations) {
+          annotations.forEach(function (a) {
+            if (a.subtype !== "Link" || !a.url) return;
+            var r = viewport.convertToViewportRectangle(a.rect);
+            var link = document.createElement("a");
+            link.className = "cv-pdf-link";
+            link.href = a.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.title = a.url;
+            link.style.left = Math.min(r[0], r[2]) + "px";
+            link.style.top = Math.min(r[1], r[3]) + "px";
+            link.style.width = Math.abs(r[2] - r[0]) + "px";
+            link.style.height = Math.abs(r[3] - r[1]) + "px";
+            sheet.appendChild(link);
+          });
+        });
+
+        return Promise.all([render, links]).then(function () {
+          return sheet;
+        });
+      });
+    }
+
+    function renderAll() {
+      var cs = window.getComputedStyle(viewer);
+      var width = Math.min(viewer.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight), 860);
+      if (!pdfDoc || Math.abs(width - lastWidth) < 2) return;
+      lastWidth = width;
+      var pages = [];
+      for (var i = 1; i <= pdfDoc.numPages; i++) pages.push(renderPage(i, width));
+      Promise.all(pages).then(function (sheets) {
+        viewer.innerHTML = "";
+        sheets.forEach(function (sheet) {
+          viewer.appendChild(sheet);
+        });
+      });
+    }
+
+    pdfjsLib
+      .getDocument(src)
+      .promise.then(function (doc) {
+        pdfDoc = doc;
+        renderAll();
+      })
+      .catch(function () {
+        status.innerHTML = 'The CV could not be displayed. <a href="' + src + '">Open the PDF directly</a> instead.';
+      });
+
+    var resizeTimer;
+    window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(renderAll, 200);
+    });
+  })();
+</script>

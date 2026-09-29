@@ -1065,3 +1065,74 @@ article h3.cv-entry-title {
     }
   }
 }
+
+// CV PDF viewer page
+
+.cv-pdf-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+a.cv-pdf-back {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--global-text-color-light);
+
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration: none;
+  }
+}
+
+.cv-pdf-viewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: 20rem;
+  padding: 1.75rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 18px;
+  background: var(--global-surface-color);
+}
+
+.cv-pdf-status {
+  margin: auto 0;
+  color: var(--global-text-color-light);
+}
+
+.cv-pdf-page {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  background: $white-color;
+  box-shadow: 0 18px 40px -24px rgba($forest-color, 0.55);
+
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+a.cv-pdf-link {
+  position: absolute;
+  display: block;
+  border-radius: 2px;
+
+  &:hover {
+    background: rgba($sand-color, 0.25);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cv-pdf-viewer {
+    gap: 1rem;
+    padding: 0.75rem;
+  }
+}
