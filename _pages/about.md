@@ -6,7 +6,7 @@ subtitle: Computational Social Scientist | PhD, Sociology | MS, Statistical Scie
 
 profile:
   align: right
-  image: prof_pic_cropped.jpg
+  image: prof_pic_cropped_no_bg.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>fatima[at]alqabandi.co</p>
@@ -16,9 +16,9 @@ selected_papers: true
 social: false
 ---
 
-Hi! I’m a computational social scientist with a Ph.D. in Sociology and an M.S. in Statistical Science from Duke University. I run large-scale experiments, surveys, and custom-built digital platforms to study how platform design, algorithms, and social dynamics shape online discourse and user experience. I’m especially interested in the gap between what platforms promise (control, safety, transparency) and how people actually interpret and respond to those features in practice.
+Hi! I’m a computational social scientist with a Ph.D. in Sociology and an M.S. in Statistical Science from Duke University. I run large-scale experiments, use surveys, and build custom digital platforms to study how platform design, algorithms, and social dynamics shape online discourse and user experience. I’m especially interested in the gap between what platforms promise (control, safety, transparency) and how people actually interpret and respond to those features in practice.
 
-A lot of my work sits at the intersection of **human–AI interaction**, **human and political behavior**, and **applied causal inference**. I love building innovative research tools that make it possible to test questions that are otherwise hard or impossible to study on real platforms, particularly questions about expression, trust, user experiences, and how people make sense of algorithmic systems.
+A lot of my work sits at the intersection of **human–AI interaction**; **social, political, and online behavior**; and **applied causal inference**. I love building innovative research tools that make it possible to test questions that are otherwise hard or impossible to study on real platforms, particularly questions about expression, trust, user experiences, and how people make sense of algorithmic systems.
 
 ## Research highlights
 
@@ -32,7 +32,7 @@ A lot of my work sits at the intersection of **human–AI interaction**, **human
   </p>
 
   <p>
-  In a <a href="https://osf.io/preprints/socarxiv/ubyac" class="external">survey-experiment</a> (forthcoming at <em>New Media & Society</em>; recipient of Duke’s 2025 MS in Statistical Science Award), we offered participants the option to filter out toxic political content in a simulated social media feed—while holding the content constant across conditions. Participants who opted into filtering perceived posts as more hostile than those who had no filtering option, even though all participants saw the same content.
+  In a <a href="https://journals.sagepub.com/doi/10.1177/14614448261418999" class="external">survey-experiment</a> (published in <em>New Media & Society</em>; recipient of Duke’s 2025 MS in Statistical Science Award), we offered participants the option to filter out toxic political content in a simulated social media feed—while holding the content constant across conditions. Participants who opted into filtering perceived posts as more hostile than those who had no filtering option, even though all participants saw the same content.
   </p>
 
 </details>
@@ -103,10 +103,13 @@ A lot of my work depends on building research infrastructure that lets us manipu
 
 ## Interests
 
-- Experiments, surveys, and computational social science
-- Causal inference and quantitative methods
-- Human–AI interaction
-- Public opinion, belief disclosure, and self-censorship
-- Platform design, moderation, and user experience
-- Social network analysis
-- And generally designing studies that help answer exciting research questions!
+<ul class="tag-list">
+  <li>Experiments, surveys, and computational social science</li>
+  <li>Causal inference and quantitative methods</li>
+  <li>Human–AI interaction</li>
+  <li>Public opinion, belief disclosure, and self-censorship</li>
+  <li>Platform design, moderation, and user experience</li>
+  <li>Social network analysis</li>
+</ul>
+
+…and generally designing studies that help answer exciting research questions!

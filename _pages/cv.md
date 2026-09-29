@@ -1,11 +1,9 @@
 ---
-# layout: cv
-layout: page
+layout: cv
 permalink: /cv/
 title: cv
+description: Academic and professional experience.
 nav: true
 nav_order: 5
 cv_pdf: alqabandi_cv.pdf
 ---
-
-<embed src="https://alqabandi.github.io/assets/pdf/alqabandi_cv.pdf" width="800px" height="2100px">

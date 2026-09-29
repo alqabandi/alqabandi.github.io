@@ -1,93 +1,248 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Fatima Alqabandi
+# -----------------------------------------------------------------------------
+# CV content for the /cv/ page (rendered by _layouts/cv.liquid).
+#
+# Keep this in step with the PDF (assets/pdf/alqabandi_cv.pdf).
+#
+# Each section has a `title` and a list of `entries`. An entry can use any of:
+#   title     main line (bold)            e.g. "PhD, Sociology"
+#   org       institution / venue          e.g. "Duke University"
+#   date      shown on the right           e.g. "2019–2025"
+#   url       makes the title a link
+#   authors   for papers; "Fatima Alqabandi" is bolded automatically
+#   notes     labelled lines, as a list of {label, text}
+#   bullets   list of strings
+# Sections with `style: compact` show entries as a tight list (awards, etc.).
+# -----------------------------------------------------------------------------
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+last_updated: September 2026
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+sections:
+  - title: Appointments
+    entries:
+      - title: Assistant Professor of Sociology
+        org: Kuwait University
+        date: 2026–Present
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+  - title: Education
+    entries:
+      - title: PhD, Sociology
+        org: Duke University
+        date: 2019–2025
+        notes:
+          - label: Dissertation
+            text: "<em>Partisan pressure and algorithmic promises: Exploring political discourse, self-censorship, and perceptions in online spaces</em>"
+          - label: Areas of interest
+            text: Large-scale online experiments, Public opinion, Self-censorship, Spiral of Silence, Polarization, UX (User experience), Computational Social Science, Causal Inference, Predictive modeling, Social Networks Analysis, Machine learning
+          - label: Awards
+            text: Distinguished scholarship from Kuwait 2014–2021; Jess and Minnie Brady Jaffrey College Scholarship Trust Fund 2024.
+      - title: MS, Statistical Science
+        org: Duke University
+        date: 2022–2025
+        notes:
+          - label: Relevant courses
+            text: Causal Inference, Bayesian Statistical Analysis, Predictive Modeling, Statistical Computing, Machine Learning.
+          - label: Awards
+            text: Master's in Statistical Science Graduation Award
+      - title: MA, Sociology
+        org: Columbia University
+        date: "2016"
+        notes:
+          - label: Thesis
+            text: "<em>Nationals Without Citizenship: The Tribal Nation</em>"
+          - label: Awards
+            text: Distinguished scholarship from Kuwait.
+      - title: BA, Sociology
+        org: University of Maryland
+        date: "2012"
+        notes:
+          - label: Thesis
+            text: "<em>Cultural Chameleons: Third Culture Kids’ Experiences in Negotiating their Identities and Sense of Belonging</em>"
+          - label: Awards
+            text: Distinguished scholarship from Kuwait.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+  - title: Publications
+    entries:
+      - authors: Fatima Alqabandi, Graham Tierney, Christopher Bail, Sunshine Hillygus, Alexander Volfovsky
+        title: Experiments Offering Social Media Users the Choice to Avoid Toxic Political Content
+        url: https://journals.sagepub.com/doi/10.1177/14614448261418999
+        org: <em>New Media and Society</em>
+        date: "2026"
+      - authors: Aidan Combs, Graham Tierney, Fatima Alqabandi, Devin Cornell, Gabriel Varela, Andrés Castro Araújo, Lisa Argyle, Alexander Volfovsky, Christopher A. Bail
+        title: "Perceived Gender and Political Persuasion: A Social Media Field Experiment during the 2020 US Democratic Presidential Primary Election"
+        url: https://www.nature.com/articles/s41598-023-39359-0
+        org: <em>Nature Scientific Reports</em>
+        date: "2023"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+  - title: Papers in progress
+    entries:
+      - authors: Fatima Alqabandi
+        title: "Spirals of Silence in Online Political Discussions: Integrating a chat experiment to Qualtrics"
+        date: "2025"
+      - authors: Fatima Alqabandi
+        title: The moderating role of perceived opinion distance on online political discourse
+        date: "2025"
+      - authors: Fatima Alqabandi
+        title: "Pressure to conform: Political self-censorship among co-partisans"
+        url: https://osf.io/preprints/socarxiv/qpmce
+        date: "2023"
+      - authors: Christopher Bail, D. Sunshine Hillygus, Alexander Volfovsky, Max Allamong, Fatima Alqabandi, Diana Jordan, Graham Tierney, Christina Tucker, Andrew Trexler, Austin van Loon
+        title: Do We Need a Social Media Accelerator?
+        url: https://osf.io/preprints/socarxiv/ucfbk
+        date: "2023"
+      - authors: Maxwell B. Allamong, Andrew Trexler, Fatima Alqabandi, Tina Tucker, Chris Bail, D. Sunshine Hillygus, Alexander Volfovsky
+        title: "Outnumbered Online: An Experiment on Partisan Imbalance in a Dynamic Social Media Environment"
+        url: https://osf.io/preprints/osf/tygec
+        date: "2023"
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+  - title: Conference presentations
+    entries:
+      - title: Self-censorship and political identity on social media
+        org: IC2S2, Copenhagen, Denmark
+        date: "2023"
+      - title: How does providing users with the choice to avoid toxic political content impact their experience on social media?
+        org: IC2S2, Copenhagen, Denmark
+        date: "2023"
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+  - title: Teaching experience
+    entries:
+      - title: Introduction to Sociology
+        org: Kuwait University
+        date: 2026–Present
+        bullets:
+          - Instructor of record for undergraduate sections of Introduction to Sociology.
+          - Design and deliver lectures introducing students to core sociological concepts, theories, and approaches to understanding social life.
+          - Develop course materials, assessments, and examinations and evaluate student performance throughout the semester.
+      - title: Social Research Methods
+        org: Kuwait University
+        date: 2026–Present
+        bullets:
+          - Instructor of record for an undergraduate research methods course.
+          - Design and deliver lectures on research questions, theory, hypotheses, measurement, research design, sampling, and the evaluation of social scientific evidence.
+          - Guide students through the development of an original research proposal, from identifying a research problem through selecting an appropriate research design.
+      - title: Getting Rich Teacher's Assistant
+        org: Duke University
+        date: "2025"
+        bullets:
+          - Coordinated guest speakers, including renowned entrepreneurs, directors of wealth management, and financial experts, to engage with students via in-person lectures and Zoom discussions.
+          - Managed course logistics, including structuring assignments, organizing class materials, and maintaining the Canvas learning platform.
+          - Facilitated student engagement, ensuring seamless interactions between guest speakers and students, and supporting discussions on financial literacy and wealth accumulation.
+      - title: Social Determinants of US Health Disparities Teacher's Assistant
+        org: Duke University
+        date: "2023"
+        bullets:
+          - Assisted with course logistics, including coordinating deadlines, managing student inquiries, and supporting the instructor with class material preparation.
+          - Organized and managed weekly assignments for undergraduate-level coursework, ensuring timely dissemination and clear instructions for students.
+          - Graded exams and assignments, providing detailed feedback to students to aid their understanding and improve their performance in the course.
+      - title: Summer Institute of Computational Social Science Teacher’s Assistant
+        org: Princeton University (Remote)
+        date: "2021"
+        bullets:
+          - Organized programming and computational practice tasks for attendees of the institute.
+          - Assisted institute attendants with their computational projects, in terms of computer language programming and presentations.
+          - Facilitated discussions and problem-solving during workshops.
+      - title: Advanced Quantitative Methods Teacher’s Assistant
+        org: Milano School of Policy and Management, The New School
+        date: "2019"
+        bullets:
+          - Hand selected for TA position to teach PhD students at the Milano School.
+          - Course entails advanced statistics and predictive model building using the R programming language.
+          - Taught and put together the R programming labs. This included statistical tutorials, R scripts, and lesson plans.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+  - title: Work, research & other experience
+    entries:
+      - title: Data Scientist, Conversational AI Interface
+        org: Duke Anesthesiology
+        date: 2024–2025
+        bullets:
+          - Developing and implementing an LLM-powered tool to streamline data cleaning and exploratory data analysis (EDA) for ICU datasets.
+          - Designing a conversational AI interface using LLMs to enable users to query clean data for insights and generate summary statistics without requiring advanced technical skills.
+          - Working with interdisciplinary team spanning MDs, software engineers, biostatisticians, and data scientists.
+      - title: Researcher
+        org: Duke Polarization Lab, Duke University
+        date: 2022–2025
+        bullets:
+          - Collaborated with interdisciplinary teams (social scientists, statisticians, and software developers) to design a custom social media platform for research use, which provides researchers full control over platform features, and integrates LLM-powered bots to create realistic experiences for recruited participants.
+          - Led and collaborated on preregistered studies, using both our custom mobile app and survey experiments to evaluate how various UX features impact user experience, perceptions, and behaviors, contributing to research on platform design and online civic discourse.
+      - title: Senior Engagement Manager
+        org: DACC, Duke University
+        date: "2024"
+        bullets:
+          - Interviewed and staffed advanced-degree, pro-bono strategy consultants, collaborating with startup clients in the technology and healthcare sectors.
+          - Evaluated client proposals, converting them into actionable statements of work to guide consulting teams through successful project completion.
+      - title: Probono Consultant
+        org: DACC, Duke University
+        date: "2023"
+        bullets:
+          - Conducted comprehensive market research to evaluate the viability of a wellness company's expansion into a new industry. Analyzed market trends, consumer demands, and competition within the hair removal sector to inform strategic decision-making. Presented findings and strategic recommendations to senior management
+      - title: Project lead on UX Study
+        org: Duke University
+        date: 2022–2023
+        bullets:
+          - Investigating the effects of giving social media users more control over the algorithms that recommend what types of content they consume.
+          - Designed, pre-tested, piloted, and launched survey-experiment on with over 2500 participants from MTurk (via CloudResearch).
+          - Tested and piloted survey questions, so as to ensure minimal bias and leading questions.
+          - Put together a simulated social media platform using CSS and HTML to give participants the illusion that they were reading real posts from a real platform.
+          - Survey was designed and carried out on Qualtrics using a Javascript to incorporate the simulated social media platforms.
+      - title: Social Media Accelerator – A research platform
+        org: The Polarization Lab, Duke University
+        date: 2022–ongoing
+        bullets:
+          - Working with an external development firm to develop a social media platform with Duke University’s Polarization Lab. This app simulates a real-world social media platform that researchers can use to run various experiments using recruited participants. The app involves the use of LLMs (using GPT-3) to help populate the platform with posts and profiles.
+          - Liaise with development firm for all aspects of design and UX, including testing.
+      - title: Machine Learning Engineer
+        org: Duke Applied Machine Learning Group
+        date: "2019"
+        bullets:
+          - Using machine learning methods (pytorch) to predict virtual reality sickness in 360° videos by looking at optical flow patterns. Goal is to reduce sickness by implementing visual noise to the scene.
+      - title: "Co-Founder: Duke Computational Social Science Working Group"
+        org: Duke University
+        date: 2019–2021
+        bullets:
+          - Started an NLP and general machine learning working group for social research.
+          - Organize workshops around live projects, where we work through theoretical or programming questions.
+          - Planned text analysis tutorials and programming lessons for workshop attendees.
+          - Won a grant to host a speaker series, where we invited distinguished researchers from the field to come speak.
+      - title: Machine Learning, Media Studies
+        org: The New School for Social Research
+        date: "2019"
+        bullets:
+          - Implemented natural language processing, feature selection, and feature extraction to help predict the helpfulness of product reviews; and used cluster analysis to help recommend products to customers.
+          - Developed best performing image recognition algorithm, which accurately predicted labeled images 99.99% of the time.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - title: Grants, honors & awards
+    style: compact
+    entries:
+      - title: Masters in Statistical Science Portfolio Award
+        org: Duke University Department of Statistical Science
+        date: "2025"
+      - title: Jess and Minnie Brady Jaffrey College Scholarship Trust Fund
+        date: "2024"
+      - title: Professional Development Grant
+        org: Duke University
+        date: "2020"
+      - title: Distinguished scholarship from Kuwait University
+        date: 2014–2022
+
+  - title: Technical skills
+    style: compact
+    entries:
+      - title: Programming & Data Analysis
+        org: R, Python, SQL
+      - title: Survey & Qualitative Tools
+        org: Qualtrics, NVivo, Atlas.ti
+      - title: Cloud & DevOps
+        org: Google Cloud, Docker, Streamlit
+      - title: Machine Learning
+        org: Large Language Models (LLMs), OpenAI GPT, Natural Language Processing (NLP), Facebook AI Similarity Search (FAISS), PyTorch
+      - title: Development Tools
+        org: GitHub, GitLab, Agile methodologies
+
+  - title: Languages
+    style: compact
+    entries:
+      - title: English
+        org: Fluent
+      - title: Arabic
+        org: Fluent
+      - title: Swedish
+        org: Beginner

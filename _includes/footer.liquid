@@ -16,16 +16,25 @@
 {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
     <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+      <div class="footer-top">
+        <span class="footer-name">
+          {{- site.first_name }}
+          <em>{{ site.last_name }}</em></span
+        >
+        <div class="social">{% include social.liquid %}</div>
+      </div>
+      <div class="footer-meta">
+        &copy; {{ site.time | date: '%Y' }}
+        {{ site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name }}. {{ site.footer_text }}
+        {% if site.impressum_path %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {% endif %}
+        {% if site.last_updated %}
+          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {% endif %}
+      </div>
     </div>
   </footer>
 {% endif %}
